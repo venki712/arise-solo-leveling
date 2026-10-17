@@ -5,13 +5,15 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/fireba
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { getFirestore, doc, getDoc, setDoc, onSnapshot, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
+
 const firebaseConfig = {
-  apiKey: "PASTE_YOUR_FIREBASE_API_KEY",
-  authDomain: "PASTE_YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "PASTE_YOUR_PROJECT_ID",
-  storageBucket: "PASTE_YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "PASTE_YOUR_SENDER_ID",
-  appId: "PASTE_YOUR_APP_ID"
+  apiKey: "AIzaSyA7DU5pvdAnMWiDEvm81TANoyFdZBfJ6Og",
+  authDomain: "arise-web-ad4c9.firebaseapp.com",
+  projectId: "arise-web-ad4c9",
+  storageBucket: "arise-web-ad4c9.firebasestorage.app",
+  messagingSenderId: "534782381504",
+  appId: "1:534782381504:web:51d4d0a1b5a245dc7b8c25",
+  measurementId: "G-WNN551J4VF"
 };
 
 const $ = (id) => document.getElementById(id);
